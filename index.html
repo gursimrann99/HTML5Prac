@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="topcorner">
+      <p id="date"></p>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="./contact.html">CONTACT</a></li>
+        <li><a href="./aboutUs.html">ABOUT US</a></li>
+        <li><a href="#">HOME</a></li>
+        <li><center><h1>Your Video Hub</h1><center></li>
+      </ul>
+    </div>
+    <div class="viewSection">
+      <center><h2>Video of the week</h2>
+        <video  id="myVideo">
+          <source src="video.mp4" type="video/mp4">
+        </video></br>
+        <button class="play" onclick="playVid()" type="button">Play Video</button></center>
+    </div>
+    <div class="choiceSubmit">
+        <p id="displayName"></p>
+        <p id="mail"></p>
+        <p id="city"></p>
+        <p id="age"></p>
+        <p id="choice"></p>
+    </div>
+    <div class="form">
+      <form class="details">
+                <h3>Your next week video choice details</h3>
+        First Name*: <input type="text"  class="row" placeholder="first name" pattern="[a-zA-Z]+" id="fName" required>
+        Last Name:<input type="text" class="row" placeholder="second name" pattern="[a-zA-Z]+" id="lName"></br>
+        Email*:<input type="text" class="row" placeholder="email-id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="mailId" required></br>
+        City: <div class="select-editable">
+                <input type="text" name="format" id="urCity"/>
+                <select onchange="this.previousElementSibling.value=this.value" id="urCity">
+                  <option value=""></option>
+                  <option value="Bangalore">Bangalore</option>
+                  <option value="Chennai">Chennai</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Hydrabad">Hydrabad</option>
+                  <option value="Kolkata">Kolkata</option>
+                  <option value="Mumbai">Mumbai</option>
+                </select>
+              </div>
+        Age: <input type="number" class="row" placeholder="age" min="18" max="120" id="ages"/>
+        Video Choice for next week*:<input type="text" class="row" placeholder="You video choice" id="txtarea" required></br>
+        <p class="note">Note : * are mandatory. </p></br>
+        <center><input class="submition"type="submit" onclick=handleSubmit()><center>
+      </form>
+    </div>
+  </body>
+</html>

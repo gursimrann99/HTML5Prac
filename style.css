@@ -1,0 +1,133 @@
+#date {
+  margin: 0px;
+ font-size: large;
+ color: white;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  display: block;
+  padding: 31px 22px;
+  color: #2273F1;
+}
+.play {
+  background: #4BC12B;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.choiceSubmit {
+  background-color: #D4D2DC;
+  border: 3px double;
+  padding: 30px;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.row {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid ;
+  border-radius: 4px;
+}
+.note {
+  color: red;
+  float: right;
+}
+select {
+  float: right;
+  text-decoration: none;
+  display: block;
+  padding: 31px 22px;
+  color: #2273F1
+  background-color: #04265D;
+  font-size: inherit;
+  font-family:
+}
+.select-editable {
+  position:relative;
+  width:220px;
+  height:35px;
+  margin: 8px 0px
+}
+.select-editable select {
+  font-size:14px;
+  width:120px;
+  height:36px;
+  padding: 0px
+}
+.select-editable input {
+  position:absolute;
+  top:0px;
+  height:30px;
+  width:200px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.submition {
+  width: 80%;
+  background-color: #4BC12B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.form {
+  background-color: lightsteelblue;
+}
+.details {
+  width: 80%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.viewSection {
+  background: powderblue;
+  padding: 7px;
+}
+.navbar {
+  background-color: #04265D;
+}
+h1 {
+  color: white;
+}
+.topcorner {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+body {
+  margin: 0;
+}
+li a:active {
+  color:   yellow;
+}
+.backgroundC {
+  background-color: powderblue;
+}
+#aboutus {
+  width: 75%;
+  font-family: sans-serif;
+  font-size: large;
+}
+.contact {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid ;
+  border-radius: 4px;
+}
+.review {
+  padding: 0px 20px 0px 20px;;
+  width: 50%;
+}
